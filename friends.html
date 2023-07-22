@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/boxicons.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="settings-page page soon">
+      <!-- Start Chatbot -->
+      <button class="chatbot-toggler">
+        <span class="open-btn"><i class="bx bx-message"></i></span>
+        <span class="close-btn"><i class="bx bx-x"></i></span>
+      </button>
+      <div class="chatbot">
+        <div class="chat-header">
+          <h2>Chatbot</h2>
+        </div>
+        <ul class="chatbox">
+          <li class="chat incoming">
+            <span><i class="bx bxl-python"></i></span>
+            <p>
+              Hi there.<br />Welcome to Web School.<br />How can I help you
+              today?
+            </p>
+          </li>
+        </ul>
+        <div class="chat-input">
+          <textarea placeholder="Enter a message..." required></textarea>
+          <span class="send-btn"><i class="bx bx-send"></i></span>
+        </div>
+      </div>
+      <!-- End Chatbot -->
+      <aside class="page-sidebar">
+        <div class="sidebar-header">
+          <div class="logo">
+            <i class="bx bxl-python icon"></i>
+            <a href="#" class="logo-name text">Web School</a>
+          </div>
+          <i class="bx bx-chevron-right toggle"></i>
+        </div>
+        <div class="sidebar-menu">
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="index.html">
+                <i class="bx bx-home-alt link-icon icon"></i>
+                <span class="link-name text">Dashboard</span>
+              </a>
+              <ul class="submenu blank">
+                <li class="link-name"><a href="#">Dashboard</a></li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <div class="link">
+                <a href="settings.html">
+                  <i class="bx bx-cog link-icon icon"></i>
+                  <span class="link-name text">Settings</span>
+                </a>
+                <i class="bx bx-chevron-down arrow icon"></i>
+              </div>
+              <ul class="submenu">
+                <li class="link-name"><a href="#">Settings</a></li>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">System</a></li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <a href="profile.html">
+                <i class="bx bx-user link-icon icon"></i>
+                <span class="link-name text">Profile</span>
+              </a>
+              <ul class="submenu blank">
+                <li class="link-name"><a href="#">Profile</a></li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <a href="projects.html">
+                <i class="bx bx-pie-chart-alt link-icon icon"></i>
+                <span class="link-name text">Projects</span>
+              </a>
+              <ul class="submenu blank">
+                <li class="link-name"><a href="#">Projects</a></li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <div class="link">
+                <a href="courses.html">
+                  <i class="bx bxs-graduation link-icon icon"></i>
+                  <span class="link-name text">Courses</span>
+                </a>
+                <i class="bx bx-chevron-down arrow icon"></i>
+              </div>
+              <ul class="submenu">
+                <li class="link-name"><a href="#">Courses</a></li>
+                <li><a href="#">React</a></li>
+                <li><a href="#">Node Js</a></li>
+                <li><a href="#">Vue Js</a></li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <a href="friends.html" class="active">
+                <i class="bx bx-group link-icon icon"></i>
+                <span class="link-name text">Friends</span>
+              </a>
+              <ul class="submenu blank">
+                <li class="link-name"><a href="#">Friends</a></li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <a href="files.html">
+                <i class="bx bx-file link-icon icon"></i>
+                <span class="link-name text">Files</span>
+              </a>
+              <ul class="submenu blank">
+                <li class="link-name"><a href="#">Files</a></li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <a href="plans.html">
+                <i class="bx bx-credit-card link-icon icon"></i>
+                <span class="link-name text">Plans</span>
+              </a>
+              <ul class="submenu blank">
+                <li class="link-name"><a href="#">Plans</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="sidebar-bottom">
+            <li class="profile">
+              <div class="profile">
+                <div class="profile-content">
+                  <img src="images/naim.jpg" alt="profile" />
+                </div>
+                <div class="job-name text">
+                  <div class="profile-name text">Naim Zaaraoui</div>
+                  <div class="job text">Web Developer</div>
+                </div>
+              </div>
+            </li>
+            <li class="log">
+              <a href="#">
+                <i class="bx bx-log-out icon"></i>
+                <span class="link-name text">Log Out</span>
+              </a>
+              <ul class="submenu blank">
+                <li class="link-name"><a href="#">Log Out</a></li>
+              </ul>
+            </li>
+            <li class="mode">
+              <div class="moon-sun">
+                <i class="bx bx-moon icon moon"></i>
+                <i class="bx bx-sun icon sun"></i>
+              </div>
+              <span class="mode-text text">Dark Mode</span>
+              <div class="toggle-switch">
+                <span class="switch"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <main class="page-content">
+        <!-- Start Header -->
+        <header class="header" id="header">
+          <div class="search">
+            <i class="bx bx-search icon search-icon"></i>
+            <input
+              type="search"
+              class="search-input text"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="header-logo">
+            <a href="#" class="logo">
+              <i class="bx bxl-python icon"></i>
+              <span class="logo-name">Web School</span>
+            </a>
+          </div>
+          <div class="navbar account">
+            <ul class="notification">
+              <li>
+                <a href="#"><i class="bx bx-bell bx-tada icon"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bx-message-rounded-dots icon"></i></a>
+              </li>
+              <li class="profile-icon">
+                <a href="#"> <i class="bx bx-user icon"></i></a>
+                <ul class="profile-options">
+                  <li>
+                    <a href="#" class="text">
+                      <i class="bx bxs-user-account option-icon"></i>
+                      <span class="option-name">My Account</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text">
+                      <i class="bx bxs-calendar-event option-icon"></i>
+                      <span class="option-name">Events</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text">
+                      <i class="bx bxs-envelope option-icon"></i>
+                      <span class="option-name">Messages</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text">
+                      <i class="bx bx-dots-horizontal-rounded option-icon"></i>
+                      <span class="option-name">More</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </header>
+        <!-- End Header -->
+        <!-- Start Content -->
+        <div class="main-content">
+          <div class="title">
+            <h1 class="text">Friends</h1>
+            <span class="text"
+              ><a href="#" class="home-link">Home</a> / Friends</span
+            >
+          </div>
+          <section class="soon-container">
+            <header>Coming Soon</header>
+            <p>
+              This page is under construction. We're working hard to improve our
+              website and we'll be ready to launch after:
+            </p>
+            <div class="time-content">
+              <div class="time days">
+                <span class="number"></span>
+                <span class="text">Days</span>
+              </div>
+              <div class="time hours">
+                <span class="number"></span>
+                <span class="text">Hours</span>
+              </div>
+              <div class="time minutes">
+                <span class="number"></span>
+                <span class="text">Minutes</span>
+              </div>
+              <div class="time seconds">
+                <span class="number"></span>
+                <span class="text">Seconds</span>
+              </div>
+            </div>
+            <div class="email-content">
+              <p>Subscribe now to get the latest updates!</p>
+              <div class="input-box">
+                <input type="email" placeholder="Enter your email..." />
+                <button>Notify Me</button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- End Content -->
+        <!-- Start Footer -->
+        <footer class="footer">
+          <p class="copyright">
+            Copyright &copy; 2020-2023 - By <span>Naim</span> - All Rights
+            Reserved
+          </p>
+          <ul class="social">
+            <li class="social-icon facebook">
+              <div class="tooltip">Facebook</div>
+              <span><i class="bx bxl-facebook bx-sm"></i></span>
+            </li>
+            <li class="social-icon twitter">
+              <div class="tooltip">Twitter</div>
+              <span><i class="bx bxl-twitter bx-sm"></i></span>
+            </li>
+            <li class="social-icon instagram">
+              <div class="tooltip">Instagram</div>
+              <span><i class="bx bxl-instagram bx-sm"></i></span>
+            </li>
+            <li class="social-icon github">
+              <div class="tooltip">Github</div>
+              <span><i class="bx bxl-github bx-sm"></i></span>
+            </li>
+            <li class="social-icon youtube">
+              <div class="tooltip">Youtube</div>
+              <span><i class="bx bxl-youtube bx-sm"></i></span>
+            </li>
+          </ul>
+        </footer>
+        <!-- End Footer -->
+      </main>
+      <button class="up-button"><i class="bx bxs-hand-up"></i></button>
+    </div>
+    <script src="js/soon.js" defer></script>
+  </body>
+</html>
