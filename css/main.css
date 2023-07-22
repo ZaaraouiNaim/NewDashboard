@@ -293,7 +293,7 @@ input:focus::placeholder {
   top: 0;
   left: 0;
   width: 15rem;
-  height: 100vh;
+  height: 100%;
   background: var(--sidebar-color);
   padding: 1.5rem 0 1rem 1rem;
   z-index: 2001;
